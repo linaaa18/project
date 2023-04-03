@@ -1,0 +1,465 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.blue{
+    position: absolute;
+    left: 0%;
+    right: 79.37%;
+    top: 0.1%;
+    bottom: 0.11%;
+    background: #5A61ED;
+}
+
+.sing{
+    position: absolute;
+    height: 63px;
+    left: 12%;
+    right: 5.7%;
+    top: calc(50% - 63px/2 + 200.5px);
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 63px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+}
+
+.up{
+    position: absolute;
+    height: 63px;
+    left: 12%;
+    right: 5.7%;
+    top: calc(50% - 63px/2 + -10.5px);
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 63px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    transform: rotate(-90deg); 
+}
+
+.Mask{
+    position: absolute;
+    left: 20.63%;
+    right: 0%;
+    top: -20%;
+    bottom: 0.11%;
+
+    background: #FFFFFF;
+}
+
+.New_user{
+    position: absolute;
+    height: 26px;
+    left: 4%;
+    right: 77.32%;
+    top: calc(50% - 26px/2 - 191.5px);
+    font-family: 'Work Sans';
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: -0.46px;
+    color: #111111;
+    
+}
+
+.Use_the_form_below{
+    position: absolute;
+    height: 200%;
+    width: 300%;
+    left: 0%;
+    right: 41.03%;
+    top: calc(50% - 16px/2 + 55.5px);
+
+    font-family: 'Work Sans';
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #111111;
+
+}
+.First_Name{
+    position: absolute;
+    height: 14px;
+    left: 0%;
+    right: 73.62%;
+    top: calc(50% - 14px/2 + 30px);
+
+    font-family: 'Work Sans';
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #7C7C7C;
+}
+
+.user_first input {
+            font-size: 14px;
+            border: none;
+            background: #F2F2F2;
+            border-bottom: 1px solid #F2F2F2;
+            outline: none;
+            background: transparent;    
+            font-family: 'Work Sans';
+            font-weight: 400;
+}
+
+.Last_Name{
+    position: absolute;
+    height: 14px;
+    width: 90px;
+    left: 55%;
+    right: 74.3%;
+    top: calc(50% - 14px/2 + 30px);
+
+    font-family: 'Work Sans';
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #7C7C7C;
+
+}
+
+.Nationality{
+    position: absolute;
+    height: 14px;
+    left: 0.10%;
+    right: 74.3%;
+    top: calc(50% - 14px/2 + 110px);
+
+    font-family: 'Work Sans';
+    font-size: 12px;
+    line-height: 14px;
+    color: #7C7C7C;
+
+}
+
+.number{
+    font-size: 14px;
+    border: none;
+    background: #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    outline: none;
+    background: transparent;
+    font-family: 'Work Sans';
+    width: 70px;
+    padding-bottom: 2px;
+}
+
+.mounts{
+    font-size: 14px;
+    border: none;
+    background: #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    outline: none;
+    background: transparent;
+    font-family: 'Work Sans';
+    width: 157px;
+    padding-bottom: 2px;
+}
+
+#year{
+    font-size: 14px;
+    border: none;
+    background: #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    outline: none;
+    background: transparent;
+    font-family: 'Work Sans';
+    width: 100px;
+    padding-bottom: 2px;
+    
+}
+
+.nationaliti_option{
+            
+            font-size: 14px;
+            border: none;
+            background: #F2F2F2;
+            border-bottom: 1px solid #F2F2F2;
+            outline: none;
+            background: transparent;
+            font-family: 'Work Sans';
+}
+select{
+    width: 333px;
+}
+
+.E-mail{
+    position: absolute;
+    height: 14px;
+    width: 90px;
+    left: 55%;
+    right: 84.01%;
+    top: calc(50% - 14px/2 + 110px);
+
+    font-family: 'Work Sans';
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #7C7C7C;
+}
+
+.user_email input{
+            font-size: 14px;
+            border: none;
+            background: #F2F2F2;
+            border-bottom: 1px solid #F2F2F2;
+            outline: none;
+            background: transparent;
+            font-family: 'Work Sans';
+}
+
+.Date_of_Birth{
+    position: absolute;
+    width: 390px;
+    height: 14px;
+    left: 0%;
+    right: 69.79%;
+    top: calc(50% - 14px/2 + 190px);
+
+    font-family: 'Work Sans';
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #7C7C7C;
+}
+
+.Gender{
+    position: absolute;
+    width: 90px;
+    height: 14px;
+    
+    left: 55%;
+    right: 82.63%;
+    top: calc(50% - 14px/2 + 190px);
+
+    font-family: 'Work Sans';
+    font-size: 12px;
+    line-height: 14px;
+    color: #7C7C7C;
+}
+
+.radio{
+    border: 0.7px solid #5A61ED;
+    border-radius: 6.3px;
+    
+
+}
+
+.radio_gender{
+    font-family: 'Work Sans';
+    font-size: 16px;
+    line-height: 16px;
+    color: #111111;
+    position: absolute;
+    height: 16px;
+    left: 230px;
+    right: 1.45%;
+    top: calc(50% - 16px/2 + 235px); 
+    text-align: center;
+    
+    
+}
+
+.rv{
+    color: #FFFFFF;
+}
+
+/* #Female{
+    left: 100px;
+} */
+
+/* label1{
+    font-family: 'Work Sans';
+    font-size: 14px;
+    line-height: 16px;
+    color: #111111;
+    position: absolute;
+    height: 16px;
+    left: 60px;
+    right: 1.45%;
+    top: calc(50% - 16px/2 + 48px); 
+    text-align: center;
+   
+    
+} */
+
+/* label{
+    font-family: 'Work Sans';
+    font-size: 14px;
+    line-height: 16px;
+    color: #111111;
+    position: absolute;
+    height: 16px;
+    left: -15px;
+    right: 1.45%;
+    top: calc(50% - 16px/2 + 47px); 
+    text-align: center;
+   
+    
+} */
+
+
+/* .name_rd{
+    font-family: 'Work Sans';
+    font-size: 14px;
+    line-height: 16px;
+    color: #111111;
+    position: absolute;
+    height: 16px;
+    left: 100%;
+    right: 1.45%;
+    top: calc(50% - 16px/2 + 47px) ;
+} */
+
+/* .name2_rd{
+    font-family: 'Work Sans';
+    font-size: 14px;
+    line-height: 16px;
+    color: #111111;
+    position: absolute;
+    height: 16px;
+    left: 26.09%;
+    right: 1.45%;
+    top: calc(50% - 16px/2 + 47px) ;
+} */
+
+.Password{
+    position: absolute;
+    height: 14px;
+    left: 0%;
+    right: 77.02%;
+    top: calc(50% - 14px/2 + 270px);
+
+    font-family: 'Work Sans';
+    font-size: 12px;
+    line-height: 14px;
+    color: #7C7C7C;
+}
+
+.user_password input{
+    font-size: 14px;
+    border: none;
+    background: #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    outline: none;
+    background: transparent;
+    font-family: 'Work Sans';
+
+}
+
+.Confirm_Password{
+    position: absolute;
+    height: 14px;
+    width: 150px;
+    left: 55%;
+    right: 56.36%;
+    top: calc(50% - 14px/2 + 270px);
+
+    font-family: 'Work Sans';
+    font-size: 12px;
+    line-height: 14px;
+    color: #7C7C7C;
+
+}
+
+.user_Confirm_Password input{
+    font-size: 14px;
+    border: none;
+    background: #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    outline: none;
+    background: transparent;
+    font-family: 'Work Sans';
+}
+
+.Have_an_account_Log{
+    position: absolute;
+    height: 15px;
+    left: 0%;
+    right: 54.14%;
+    top: calc(50% - 15px/2 + 450px);
+
+    font-family: 'Work Sans';
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #000000;
+}
+
+.button{
+    position: absolute;
+    text-decoration: none ;
+    height: 18px;
+    left: 55%;
+    right: 16.88%;
+    top: calc(50% - 18px/2 + 455px);
+    background-color: #5A61ED;
+    padding: 10px 30px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    
+
+}
+
+.Thank{
+    position: absolute;
+    height: 26px;
+    left: 10%;
+    right: 67.84%;
+    top: calc(50% - 26px/2 + 50px);
+    font-family: 'Work Sans';
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+    letter-spacing: -0.46px;
+
+    color: #111111;
+}
+
+.you{
+    position: absolute;
+    height: 16px;
+    left: 10.5%;
+    right: 71.34%;
+    top: calc(50% - 16px/2 + 120px);
+
+    font-family: 'Work Sans';
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #111111;
+}
+
+.Have_an_account_Log1{
+    position: absolute;
+    height: 15px;
+    left: 4%;
+    right: 54.14%;
+    top: calc(50% - 15px/2 + 400px);
+
+    font-family: 'Work Sans';
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #000000;
+}
+
+

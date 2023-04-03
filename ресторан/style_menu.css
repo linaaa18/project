@@ -1,0 +1,199 @@
+
+
+body{
+    margin: 0;
+}
+
+.container{
+    margin: 0px 0px;
+    
+   
+    
+}
+
+.color{
+    margin-left: 130px;
+    
+    width: 1200px;
+    background-color: rgba(0, 0, 0, 0.765);
+}
+
+.header-line{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* padding-left: 300px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.nav-item{
+    color: white;
+    text-decoration: none;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 16px;
+    /* margin-left: 50px; */
+    margin-right: 25px;
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover{
+    color: red;
+}
+
+.menu {
+    background-image: url(menu-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0px;
+    
+    
+}
+
+.menu-title {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    padding-top: 60px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 138px;
+    
+}
+
+.menu-item {
+    background-color: #ffffff89;
+    text-align: center;
+    width: 25%;
+    margin-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-right: 25px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+
+.menu-text {
+    font-family: Open Sans;
+    font-size: 26px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    font-weight: 600;
+}
+
+.menu-subtext {
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.menu-btn {
+    font-family: Open Sans;
+    background-color: rgb(246, 130, 28);
+    text-decoration: none;
+    padding: 14px 67px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 5px 5px 10px 0px #00000040;
+    
+}
+
+.menu-button {
+    margin-top: 20px;
+    opacity: 1;
+    transition: 0.4s linear ;
+    margin-bottom: 20px;
+}
+
+.menu-button:hover{
+    opacity: 0.6;
+}
+
+.price-image {
+    position: absolute;
+    bottom: 0;
+    right: 32px;
+}
+
+.menu-img{
+    border-radius: 100%;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    opacity: 1;
+    
+}
+
+
+
+.menu-img img{
+    width:150%;
+    height:150%;
+  object-fit: cover;
+}
+
+.menu-image {
+    position: relative;
+    
+}
+
+.price-420 {
+    position: absolute;
+    bottom: 32px;
+    right: 67px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+}
+
+.pag_color{
+    padding-left: 560px;
+    width: auto;
+    height: auto;
+    background-color: #000;
+}
+div.pagination{
+    
+    padding-bottom: 50px;
+    clear: both;
+}
+
+/* Ссылки для разбиения на страницы */
+.pagination a {
+   
+    /* align-items: center; */
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  /* Стиль активной/текущей ссылки */
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  /* Добавить серый цвет фона при наведении курсора мыши */
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+.footer {
+    
+    background-color: #000;
+    padding: 30px 0px;
+    color: #fff;
+    text-align: center;
+    font-family: Open Sans;
+}
